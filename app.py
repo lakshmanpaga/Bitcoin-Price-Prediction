@@ -20,7 +20,7 @@ st.subheader("        -P.V.V.S.S LAKSHMAN ,P.DINESHKUMAR ,M.AJAY SAKTHI SHANKAR 
 
 st.write(
     "In simplistic terms, Cryptocurrency is a digitised asset spread through multiple computers in a shared network. The decentralised nature of this network shields them from any control from government regulatory bodies. The term “cryptocurrency” in itself is derived from the encryption techniques used to secure the network.What is Bitcoin? Bitcoin is a cryptocurrency built by using blockchain. Bitcoin value depends on various aspects. Predicting the price of bitcoin is the hardest job. We are building a machine model which will predict the price of bitcoin based on the previous history data from 2014 to today and analysis tools. Our problem is a regression problem predicting the value of bitcoin. We use various ml regression algorithms to predict the value and pick the best one.")
-st.image("1.jpg")
+st.image("https://www.dropbox.com/t/D9GepdwveB02TLCt")
 crypto_option = "Bitcoin"
 symbol_crypto = crypto_mapping[crypto_option]
 data_crypto = yf.Ticker(symbol_crypto)
